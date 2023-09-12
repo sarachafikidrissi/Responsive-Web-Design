@@ -19,23 +19,40 @@
   <body>
     <h1>My Goals for the year</h1>
 
-    <hr /><!--to add line to seperate content-->
+    <hr />
+    <!--to add line to seperate content-->
 
-    <nav><!-- used to provide navigation links to different sections or pages of a website-->
-        <ul>
-            <li>
-                <a href="#html">Learning HTML</a>
-            </li>
-            <li>
-                <a href="#vacation">Planning a Vacation</a>
-            </li>
-        </ul>
+    <nav>
+      <!-- used to provide navigation links to different sections or pages of a website-->
+      <ul>
+        <li>
+          <a href="#html">Learning HTML</a>
+        </li>
+        <li>
+          <a href="#vacation">Planning a Vacation</a>
+        </li>
+      </ul>
     </nav>
-    <hr>
+    <hr />
     <section id="html">
       <h2>I'm Ready to Learn HTML</h2>
       <p>This is my first web page.</p>
-
+      <!--to add an image-->
+      <img
+        src="image/html5-logo.webp"
+        alt="Html5 Logo"
+        title=" I am Learning HTML5"
+        width="300"
+        height="300"
+      />
+      <!--<figure> element is used to encapsulate a piece of content-->
+      <figure>
+        <!--<figcaption> element is used to provide a caption or description for the content within the <figure> element.-->
+        <figcaption>An Example of HTML5 code</figcaption>
+        <p>
+          <code>&lt;h1&gt;Hello world!&lt;/h1&gt;</code>
+        </p>
+      </figure>
       <h3>My Daily Schedule</h3>
       <p>Let me tell you how:</p>
       <!--An Ordered List-->
@@ -54,9 +71,9 @@
       </ol>
     </section>
     <hr />
-    <!--<p> & <h> are block level elements, otherwise <em> and <strong> are inline level elements-->
-
-    <section id="vacation"> <!--used to define a thematic grouping or section of content on a web page.--> 
+    <!--used to define a thematic grouping or section of content on a web page.-->
+    <section id="vacation">
+      <!--<p> & <h> are block level elements, otherwise <em> and <strong> are inline level elements-->
       <h2>I Am also planning a Vacation</h2>
       <p>I've been working hard and <em>really need a gataway</em>.</p>
       <p>I live in <abbr title="Kansas">KS</abbr> so i want visit a beach.</p>
@@ -64,7 +81,17 @@
       <h3>Places I'd like to Visit</h3>
       <!--Unordred List-->
       <ul>
-        <li><p>I've heard good things about the Caribbean.</p></li>
+        <li>
+          <p>I've heard good things about the Caribbean.</p>
+          <figure>
+            <img src="image/vacation.jpg" alt="Cancun Vacation" title="It's 5 o'clock Somewhere" width="640" height="360" loading="lazy">
+             
+              <!--the figcaption tell the browser that this caption is related to the image-->
+            <figcaption>
+              Caribbean Beach Gataway
+            </figcaption>
+          </figure>
+        </li>
         <li>
           <p>I've heard good things about going here:</p>
           <address>
@@ -73,6 +100,13 @@
             Bahia Petempich Puerto Morlos, Mexico<br />
             Colonia Morelos, Mexico 77580
           </address>
+          <figure>
+            <img
+                src="image/caribbean.jpg" alt="Carribbean beachS" title="I want to visit a Carribbean beach." width="640" height="358" loading="lazy">
+                <figcaption>
+                  A Caribbean Vacation Image
+                </figcaption>
+          </figure>
         </li>
       </ul>
 
@@ -97,7 +131,8 @@
     &lt;&lt;&lt; &copy;
     <a href="about.html">Sara Chafik Idrissi</a> &gt;&gt;&gt;
     <p>
-        <a href="#">Back to Top </a>
+      <!--a link tha brigs u back to top of the page-->
+      <a href="#">Back to Top </a>
     </p>
   </body>
 </html>
