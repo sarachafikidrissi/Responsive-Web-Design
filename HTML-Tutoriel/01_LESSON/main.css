@@ -5,3 +5,19 @@ body {
     background-color: #333;
     color: whitesmoke;
 }
+/* changing color of anchor links */
+a {
+    color: aliceblue;
+}
+
+/* changing color of a link once it is visited*/
+a:visited
+{
+    color: lightgrey;
+}
+
+/*change color of a link when u hover over it or when it's active */
+a:hover, a:active
+{
+    color: #eee;
+}
