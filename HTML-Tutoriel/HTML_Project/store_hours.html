@@ -3,30 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Sara Chafik Idrissi" />
-    <meta
-      name="description"
-      content="This page contains Little Taco Shop wroking hours "
-    />
-    <title>Store Hours</title>
+    <meta name="description" content="Store hours for The Little Taco Shop" />
+    <title>LTS Hours</title>
     <link rel="icon" href="img/favicon.png" type="img/x-icon" />
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
 
   <body>
     <header>
-      <h1>Little Taco Shop Hours</h1>
+      <h1>The Little Taco Shop Hours</h1>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#about-LTS">About LTS</a></li>
-          <li><a href="index.html#menu">Our Menu</a></li>
+          <li><a href="/#about-LTS">About LTS</a></li>
+          <li><a href="/#menu">Our Menu</a></li>
           <li><a href="Contact.html">Contact Us</a></li>
         </ul>
 
         <figure>
           <img
             src="Img/tacos_tray_400x267.png"
-            alt="a tray of tacos"
+            alt="A tray of Tasty Tacos"
+            title="we love trays of tacos!"
             width="400"
             height="267"
             loading="lazy"
@@ -35,12 +33,11 @@
         </figure>
       </nav>
     </header>
+    <hr />
     <main>
-      <hr />
-      <article>
-        <p>
-          We are open 7 days a week!
-          <br /><br />
+      <p>We are open 7 days a week!</p>
+      <!--This is how i do it-->
+      <!--           <br /><br />
           <time datetime="sunday">Sunday</time>-<time datetime="thursday"
             >Thursday</time
           ><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<time
@@ -53,16 +50,22 @@
           ><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<time
             datetime="11:00"
             >11am</time
-          >-<time datetime="23:00">11pm</time>
-        </p>
-        <p>
-          <a href="#">Back to top</a>
-        </p>
-      </article>
+          >-<time datetime="23:00">11pm</time> -->
+
+      <!--This is the correct way-->
+      <dl>
+        <dt>Sunday-Thursday</dt>
+        <dd>11am-9pm</dd>
+        <dt>Friday-Saturday</dt>
+        <dd>11am-11pm</dd>
+      </dl>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
     </main>
     <hr />
+    <footer>
+      <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
   </body>
-  <footer>
-    <p>Copyright &copy; The Little Taco Shop</p>
-  </footer>
 </html>
