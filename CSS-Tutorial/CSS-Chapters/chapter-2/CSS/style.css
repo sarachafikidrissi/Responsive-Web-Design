@@ -1,0 +1,30 @@
+ /* element selector*/
+body {
+    font-size: 22px;
+}
+/*to select 2 elements we use "," between the 2 elements*/
+h1, h2 {
+    color: blue;
+}
+
+p {
+    color: purple;
+}
+/* to select an element within an another element we use "space" between them
+p span {
+    text-transform: uppercase;
+    background-color: gold;;
+} */
+
+/*class selector*/
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+.gray {
+    color: gray;
+}
+/* ID selector / can be used only once  */
+#second {
+    font-style: italic;
+}
