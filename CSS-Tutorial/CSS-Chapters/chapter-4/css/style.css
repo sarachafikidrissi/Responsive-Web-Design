@@ -1,0 +1,30 @@
+/* in this chapter we are gonna learn about Units and Sizes */
+
+* { /* the "*" selector elemenates all the styles above */
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+h1 {
+    /* Pixel unite */
+    border: 2px dashed red; 
+    /* Percentage Unit */
+    width: 50%; /* here we are taking 50% of the width of the parent element which is header here */
+    font-size: 3rem;
+    /* em Unit: we use it for marging and padding, it ads some extra padding/margin to the element itself */
+    padding: 0.5em;
+} 
+
+main {
+    width: 50vw; /* Viewport Unit */
+    background-color: skyblue;
+    font-size: 2rem;
+}
+
+p { 
+    /* Rem Unit : We used it on font-size*/
+    font-size: 2rem; /* relative to the root element which is defined by the Browser */
+
+    /* ch Unit */
+    width: 40ch; /* to set 40 characters per line */
+}
