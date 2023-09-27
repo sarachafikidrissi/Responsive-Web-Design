@@ -1,0 +1,42 @@
+/*In This Chapter we are gonna learn about Box Model*/
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: content-box; this tells that the size we are setting is gonna for content only  */
+    box-sizing: border-box;  /*helps us calculate the size we are assigning */
+}
+.container{
+    border: 10px double red;
+    /* different proprty to apply on border 
+     border-top: 5px solid green;
+    border-right: 10px dotted blue;
+    border-top-style: ridge;
+    border-top-width: 5px;
+    border-top-color: blue; */
+    font-size: 1.5rem;
+    margin: 1.5em ;
+    /* this is the sqme as margin: 1.5em; or 
+    margin:  1.5em 1.5em 1.5em 1.5em / top bottom right left
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em; */
+    padding: 1.5rem ;
+    outline: 5px solid purple;
+    outline-offset: 5px; /*to push the outline outside  the border 
+    outline-offset: -20px; negative  push it inside the border*/
+}
+
+.circle {
+    margin: 3rem auto;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 50px; /*it arround the corner of our square*/
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+
+}
+
