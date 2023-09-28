@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     /* box-sizing: content-box; this tells that the size we are setting is gonna for content only  */
-    box-sizing: border-box;  /*helps us calculate the size we are assigning */
+    box-sizing: border-box;  /*the calculation includes the  content , the padding and the border  */
 }
 .container{
     border: 10px double red;
@@ -26,7 +26,7 @@
     outline: 5px solid purple;
     outline-offset: 5px; /*to push the outline outside  the border 
     outline-offset: -20px; negative  push it inside the border*/
-}
+}s
 
 .circle {
     margin: 3rem auto;
