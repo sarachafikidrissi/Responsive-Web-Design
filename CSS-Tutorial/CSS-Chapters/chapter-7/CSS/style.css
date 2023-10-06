@@ -1,0 +1,32 @@
+/* Styling List Chapter */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a {
+    /*text-decoration: none; to remove the default underlain on links*/
+    /* cursor: none; set the link to not allowed to click on them */
+    /* cursor: pointer;
+    color: blue; */
+
+    color: hsl(207, 44%, 49%);
+}
+/* Sudo Class */
+
+a:visited {
+    color: purple;  /*to change the color of visited linkes*/
+}
+a:hover, a:focus {
+    color: hsl(189, 44%, 49%); /*to change the color of links while the user is hovering on them*/
+    background-color: gold;
+    
+}
+
+a:active {
+    color:red; /*change the color of link when the user is clicking on it and holding*/
+}
