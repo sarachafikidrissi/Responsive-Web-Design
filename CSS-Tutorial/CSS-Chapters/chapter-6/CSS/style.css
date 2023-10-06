@@ -1,0 +1,64 @@
+/* this Chapter is about Typography
+
+Typography is the way that text is arranged and presented 
+
+*/
+/* another way to set font-family of text is to import it fron google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    padding: 10%;
+    font-size: 2rem;
+    /*font-family: serif; this is default*/
+    /* font-family: sans-serif;  */
+    /* font-family: monospace; it makes the text have same spacing between every character */
+    /* font-family: cursive; */
+    /* font-family: fantasy; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family:  Arial, Helvetica, sans-serif; this is very common font */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Roboto', sans-serif; /*after importing this font fron=m google font we use this copied setting */
+
+    
+    
+}
+/* we set the font of input and button so it  would be the same cause those element don,t inherit the parrent settings */
+/* input, button {
+    font: inherit;
+} */
+
+p {/*===============================================================*/
+    /*=========== Here are some text settings =====================*/
+        /*===========M ost Commonly Used =======================*/
+
+
+    /*text-decoration: underline;  to underline a text*/
+    /* text-decoration: overline;  to have line above the text*/
+    /* text-decoration: line-through; to cross the text */
+    /* text-decoration: none;  this is the default + it removes the under line from a text also */
+
+    /* text-transform: capitalize; this to capitilize every first letter
+    text-transform: lowercase; to lowercase a text
+    text-transform: uppercase; to upper case a text*/
+
+    /* text-align: left; this the default */
+    /* text-align: justify; this is what wee see on newspapers and magazine */
+    /* text-align: right; to uniform the text on the right */
+    
+    /* text-indent: 5em; to indent the first line */
+
+    line-height: 1.5; /*it increase the readability of our text */
+    /*letter-spacing: 0.1em; it adds sapce between letters*/
+    /* word-spacing: 0.5em; it add space between words */
+
+    /*font-weight: bolder;  == 900change the font of text to  bold
+    font-weight: lighter; == 100change the font of text to light */
+    
+
+    /* font-style: italic;
+    font-style: oblique;
+    font-style: normal; that is the default */
+
+
+
+}
