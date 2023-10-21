@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+/**/
+ol {
+    /*========= To style the beginning of an ordered list ==========*/
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: georgian; */
+    /* list-style-type: default; */
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type: disc; */
+    /* list-style-type: circle; */
+    /* list-style-type: upper-roman; */
+    /*list-style-type: none;*/ /*eleminate the list beginings*/
+    list-style-type: lower-alpha;
+    padding: 0; /*set all list items to the back*/
+
+}
+
+ul {
+  list-style-type: square;
+  text-align: center; /*this will center the items only*/
+  /* list-style-position: inside; the bullet or marker will be positioned inside the content box of the list item */
+  list-style-position: inside;
+  color: #00f; /*setting color to a list will change color to the text and the bullet*/
+  line-height: 1.6;
+  /* list-style-image: url("../images//checkmark.png"); to use image instead of the bullet points */
+  /* list-style: square url("../images//checkmark.png") inside; shorthand to style the bullet points */
+}
+
+/* li{
+  color: red;}to change the color of all list items */
+/* ul li {
+  color: red;
+} */
+
+/* ul li:nth-child(2) {
+  color:red;
+} */
+
+/* ul li:nth-child(odd) {
+  color:red;
+} */
+
+ul li:nth-child(even) {
+  color:red;
+}
+/* to style the bullet points */
+ul ::marker { 
+  color: red;
+  font-family: fantasy;
+  font-size: 1em;
+  content: "Only $5 >> "
+}
+
+
